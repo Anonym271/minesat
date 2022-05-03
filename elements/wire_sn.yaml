@@ -1,0 +1,18 @@
+name: wire_sn
+type: wire
+width: 3
+height: 3
+outputs:
+- x: 1
+  y: 0
+  dir: n
+inputs:
+- x: 1
+  y: 3
+  dir: n
+rows:
+#   ^
+- "111"
+- "1x1"
+- "1X1"
+#   ^

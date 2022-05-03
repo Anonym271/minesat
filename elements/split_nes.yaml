@@ -1,0 +1,26 @@
+# This one is phase corrected to fit the crossover's width
+name: split_nes
+type: wire
+width: 12
+height: 7
+inputs:
+- x: 5
+  y: 0
+  dir: s
+outputs:
+- x: 5
+  y: 7
+  dir: s
+- x: 12
+  y: 4
+  dir: e
+rows:
+#       v Input
+- "### 1x1 ####"
+- "#   1X1     "
+- "# 1121111211"
+- "# 2*3x12*3*2"
+- "# 3*X2X3x5X3" # > Output E
+- "# 2*3x12*3*2"
+- "# 1121111211"
+#       v Output S

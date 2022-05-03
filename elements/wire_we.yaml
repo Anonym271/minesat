@@ -1,0 +1,16 @@
+name: wire_we
+type: wire
+width: 3
+height: 3
+outputs:
+- x: 3
+  y: 1
+  dir: e
+inputs:
+- x: 0
+  y: 1
+  dir: e
+rows:
+- "111"
+- "xX1" # >
+- "111"

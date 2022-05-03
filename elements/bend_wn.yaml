@@ -1,0 +1,19 @@
+name: bend_wn
+type: wire
+width: 7
+height: 5
+outputs:
+- x: 4
+  y: 0
+  dir: n
+inputs:
+- x: 0
+  y: 2
+  dir: e
+rows:
+#      ^
+- "   1221"
+- "1112X*2"
+- "xX2x**2"
+- "112**31"
+- "  1221 "

@@ -1,0 +1,18 @@
+name: not3
+type: gate
+width: 9
+height: 5
+outputs:
+- x: 9
+  y: 2
+  dir: e
+inputs:
+- x: 0
+  y: 2
+  dir: e
+rows:
+- "  1121211"
+- "112*3*3*2"
+- "xX3x5X5x3" # >
+- "112*3*3*2"
+- "  1121211"

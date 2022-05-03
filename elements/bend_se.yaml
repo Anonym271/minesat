@@ -1,0 +1,21 @@
+name: bend_se
+type: wire
+width: 5
+height: 7
+outputs:
+- x: 5
+  y: 2
+  dir: n
+inputs:
+- x: 2
+  y: 7
+  dir: e
+rows:
+#      ^
+- " 1221"
+- "13**2"
+- "2**X2"
+- "2*x21"
+- "1221 "
+- " 1X1 "
+- " 1x1 "

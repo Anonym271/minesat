@@ -1,0 +1,27 @@
+name: cross
+type: wire
+width: 12
+height: 6
+inputs:
+- x: 5  # TOP (North-South)
+  y: 0
+  dir: s
+- x: 0  # LEFT (West-East)
+  y: 4
+  dir: e
+outputs:
+- x: 5  # BOTTOM (North-South)
+  y: 6
+  dir: s
+- x: 12  # RIGHT (West-East)
+  y: 4
+  dir: e
+rows:
+#       v
+- "    1s1     "
+- "    1S1     "
+- "    111     "
+- "11112s211111"
+- "rR1rRSrR1rR1" # >
+- "111122211111"
+#       v

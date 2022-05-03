@@ -1,0 +1,18 @@
+name: not
+type: gate
+width: 5
+height: 5
+outputs:
+- x: 5
+  y: 2
+  dir: e
+inputs:
+- x: 0
+  y: 2
+  dir: e
+rows:
+- "  111"
+- "112*2"
+- "xX3x3" # >
+- "112*2"
+- "  111"

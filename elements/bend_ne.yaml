@@ -1,0 +1,21 @@
+name: bend_ne
+type: wire
+width: 12
+height: 7
+outputs:
+- x: 12
+  y: 4
+  dir: e
+inputs:
+- x: 5
+  y: 0
+  dir: s
+rows:
+#       v
+- "### 1x1 ####"
+- "##  1X1     "
+- "## 122111211"
+- "## 2*x22*3*2"
+- "## 2**X4x5X3" # >
+- "## 13**3*3*2"
+- "##  12221211"

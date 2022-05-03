@@ -1,0 +1,22 @@
+name: ps_ns
+type: wire
+width: 5
+height: 7
+inputs:
+- x: 2
+  y: 0
+  dir: s
+outputs:
+- x: 2
+  y: 7
+  dir: s
+rows:
+#    v
+- " 1X1 "
+- " 1x1 "
+- "12321"
+- "1*X*1"
+- "23532"
+- "1*x*1"
+- "12321"
+#    v
